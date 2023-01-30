@@ -1,0 +1,48 @@
+Package: MHCnvex
+Title: HLA CNV Explorer
+Version: 0.0.1
+Authors@R: 
+    person("Noshad", "Hosseini", , "noshadh@med.umich.edu", role = c("aut", "cre"))
+Description: Performing CNV analysis on highly polymorphic HLA loci (MHC-I and MHC-II)
+Depends:
+    R (>= 3.5.0)
+Imports:
+    BiocGenerics,
+    optparse,
+    parallel,
+    rtracklayer,
+    matrixStats,
+    Rsamtools,
+    BSgenome.Hsapiens.UCSC.hg38,
+    BSgenome,
+    GenomeInfoDb,
+    GenomicRanges,
+    S4Vectors,
+    IRanges,
+    data.table,
+    stringr,
+    Biostrings,
+    VariantAnnotation,
+    limma,
+    DNAcopy,
+    DelayedArray,
+    jointseg,
+    raster,
+    robfilter,
+    fastICA,
+    MASS,
+    foreach,
+    doParallel,
+    karyoploteR,
+    ggplot2,
+    ggrepel,
+    ggpubr,
+    patchwork,
+    stats,
+    zoo,
+    utils
+License: MIT + file LICENSE
+LazyData: true
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
